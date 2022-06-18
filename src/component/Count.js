@@ -15,7 +15,7 @@ export default function AwardHistory(props) {
   const string = props.number.replace(/\d/g, "");
 
   useEffect(() => {
-    const step = (timestamp) => {
+    const countUp = (timestamp) => {
       if (!animation.timestamp) {
         animation.timestamp = timestamp;
       }
@@ -24,10 +24,10 @@ export default function AwardHistory(props) {
       );
       setCount(Math.floor(progress * number));
       if (progress < 1) {
-        window.requestAnimationFrame(step);
+        window.requestAnimationFrame(countUp);
       }
     };
-    window.requestAnimationFrame(step);
+    window.requestAnimationFrame(countUp);
   }, [number]);
 
   return <strong>{count + string}</strong>;
