@@ -12,7 +12,7 @@ export default function Award() {
         <FadeIn className="container title">
           <AwardTitle copy="700만 명의 여행자" />
           <AwardTitle copy="100만 개의 여행 리뷰" />
-          <AwardTitle copy="470만 개의 여행 리뷰" />
+          <AwardTitle copy="470만 개의 여행 일정" />
         </FadeIn>
         <FadeIn className="container history">
           <AwardHistory
