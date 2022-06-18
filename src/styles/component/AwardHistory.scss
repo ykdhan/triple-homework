@@ -1,0 +1,11 @@
+.award-history {
+    display: inline-block; height: 54px; padding: 5px 0px 5px 62px; margin-right: 39px;
+    font-family: sans-serif; font-size: 14px; font-weight: bold; line-height: 22px;
+    color: rgba(58, 58, 58, 0.8);
+    background-position: left top; background-repeat: no-repeat; background-size: 54px 54px;
+
+    &.google { background-image: url('/images/award_play-store2x.png'); }
+    &.apple { background-image: url('/images/award_apple4x.png'); }
+
+    span { display: block; }
+}

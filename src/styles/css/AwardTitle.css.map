@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,WAAW,EAAE,UAAU;EAAE,SAAS,EAAE,IAAI;EAAE,cAAc,EAAE,IAAI;EAC9D,KAAK,EAAE,OAAe;EACtB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "../component/AwardTitle.scss"
+    ],
+    "names": [],
+    "file": "AwardTitle.css"
+}

@@ -1,0 +1,40 @@
+.feature {
+  position: relative;
+  width: 1040px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.feature-content {
+  padding: 150px 0 140px 623px;
+}
+
+.feature-figure {
+  position: absolute;
+  top: 150px;
+  width: 400px;
+  height: 338px;
+  padding-top: 280px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgba(58, 58, 58, 0.7);
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("/images/award_triple2x.png");
+  background-size: 400px 338px;
+  background-repeat: no-repeat;
+}
+
+.feature .title-container {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.feature .history-container {
+  margin-top: 50px;
+  white-space: nowrap;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+/*# sourceMappingURL=Feature.css.map */
